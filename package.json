@@ -1,0 +1,49 @@
+{
+  "name": "express-apolloserver-mongo-qs",
+  "version": "0.0.1",
+  "description": "Quickstart project using Express, Apollo Server, GraphQL, and Mongo.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "compile": "npx tsc && node dist/index.js",
+    "dev": "npx nodemon -e ts --exec \"npm run compile\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwillson/express-apolloserver-mongo-qs.git"
+  },
+  "keywords": [
+    "Express",
+    "Apollo",
+    "Server",
+    "GraphQL",
+    "Mongo"
+  ],
+  "author": "Hugh Willson <hugh@octonary.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hwillson/express-apolloserver-mongo-qs/issues"
+  },
+  "homepage": "https://github.com/hwillson/express-apolloserver-mongo-qs#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "winston": "^3.0.0-rc5"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "nodemon": "^1.17.3",
+    "typescript": "^2.8.3"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true
+    },
+    "extends": "airbnb-base"
+  }
+}
